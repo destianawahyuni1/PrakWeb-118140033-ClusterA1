@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+
+    
+        <h1>Pemesanan Makanan</h1>
+        
+        <form action="" method="post">
+            <div class="form-group">
+                <label for="">Masukkan Nama :</label>
+                <input type="text" name="nama" class="form-control">
+            </div>
+        
+            <div class="form-group">
+                <label for="">Jenis Kelamin :</label>
+                <select class="form-control" name="Jenis_Kelamin">
+                    <option>Pilih Jenis Kelamin</option>
+                    <option value="laki-laki"> laki-laki </option>
+                    <option value="perempuan"> perempuan </option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="">Pembayaran kasir  :</label>
+                <input type="radio" name="pembayaran" value="lunas">
+                lunas<br>
+            </div>
+
+            <div class="form-group">
+                <label for="">Pilihan menu makanan :</label><br>
+                <input type="Checkmenu" name="setA" value="Nasi ayam geprek+es teh">
+                ayam geprek dan es <br>
+                <input type="Checkmenu" name="SetB" value="Nasi ayam geprek">
+                ayam geprek <br>
+            </div>
+           
+            <input type="submit" name="submit" value="Simpan" class="btn btn-primary"/>
+        </form>
+
+        <br> <br>
+        <div class="container mt-5 mb-5">
+            <table border="1" class="justify-content-center w-100">
+    
+            <tr class="text-center" style="background-color:gray;color:white;border:1px solid #000">
+                <th>Nama</th>
+                <th>Jenis Kelamin</th>
+                <th>Pembayaran Kasir </th>
+                <th>Pilihan menu makanan</th>
+                
+            </tr>
+    
+                <tr>
+                    <td>Destiana Wahyuni </td>
+                    <td> Perempuan </td>
+                    <td> Lunas </td>
+                    <td> Nasi ayam geprek+es teh </td>
+                    
+                </tr>
+            </table>
+    
+        </div>
+
+    </body>
+</html>
