@@ -1,0 +1,28 @@
+{
+    "biodata" : {
+        "nama" : {
+            "Awal" : "Destiana",
+            "Akhir" : "Wahyuni"
+        },
+        "jenisKelamin" : "Perempuan",
+        "status" : "Mahasiswa",
+        "saudara" : {
+            "nama" : "Dicky"
+        },
+        "orangtua" : {
+            "hobi" : ["Main Game, Nonton"]
+        },
+        "alamat" : {
+            "Perum" : "Srengsem",
+            "Kecamatan" : "Panjang",
+            "Kota" : "Bandar Lampung",
+            "Provinsi" : "Lampung"
+        },
+        "sosialmedia" : {
+            "intagram" : "destianaa10",
+            "line" : "@destiana_",
+            "github" : "destiana71"
+        }
+
+    }
+} 
